@@ -17,7 +17,7 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
@@ -66,27 +66,24 @@ ol {
 
 
 .content {
-  margin-right: 30px;
-  margin-left: 30px;
   display: grid;
   grid-template-columns: 711px 1fr;
   grid-template-rows: auto 1fr;
-  gap: 36px;
-  margin-top: 133px;
-  margin-bottom: 133px;
+  gap: 30px;
+  margin: auto;
 }
 
 .result {
   grid-column: 1;
   grid-row: 2;
   align-self: end;
+  margin-top: 40px;
 }
 
 .content__details {
   grid-column: 2;
   grid-row: 1 / span 2;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -101,6 +98,7 @@ ol {
   max-height: 300px;
   overflow: auto;
   position: relative;
+  width: 400px;
 }
 
 .result__video-container {
@@ -144,10 +142,7 @@ ol {
   font-size: 75px;
   font-weight: 700;
   line-height: 0.94em;
-  margin-bottom: 26px;
-  position: relative;
-  top: 5px;
-  right: 5px;
+  margin-bottom: 20px;
 }
 
 .content__accent {
@@ -156,8 +151,6 @@ ol {
 
 .content__video-card-description-container {
   width: 196px;
-  position: relative;
-  top: 2px;
 }
 
 
@@ -167,6 +160,7 @@ ol {
 }
 
 .content__video-card-title {
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   white-space: nowrap;
